@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #355E3B;
+    --second-color: #ecde55;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/flawers.jpg');
+    background-size: cover;
+    padding: 10px;
+}
+
+.content {
+    margin: 0 10px;
+}
+
+.content nav {
+    background-color: var(--main-color);
+    padding: 10px;
+}
+
+.content nav a {
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+    font-size: 18px;
+}
+
+.container h1,
+p {
+    color: var(--main-color);
+    margin-bottom: 10px;
+}
+
+.container p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+.container .content .register {
+    max-width: 350px;
+    max-height: 700px;
+    background-color: var(--main-color);
+    padding: 10px;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
+.container .content .register .image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background-image: url("../images/farmer.jpeg");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    align-items: center;
+    margin: auto;
+}
+
+.container .content .register input,
+select {
+    margin: 10px;
+    width: calc(100% - 20px);
+    padding: 5px;
+}
+
+.container .content .register label {
+    color: white;
+}
+
+.container .content .register .sign-button {
+    background-color: var(--second-color);
+    font-size: 18px;
+    border: none;
+    height: 30px;
+    font-weight: bold;
+    color: var(--main-color);
+}

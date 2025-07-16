@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #355E3B
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../images/pexels-pixabay-159406.jpg');
+    background-size: cover;
+    padding: 10px;
+}
+
+.content {
+    margin: 0 10px;
+}
+
+.content nav a {
+    text-decoration: none;
+    padding: 20px;
+    color: var(--main-color);
+    font-size: 18px;
+}
+
+.container h1,
+p {
+    color: var(--main-color);
+    margin-bottom: 10px;
+}
+
+.container p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    margin-top: 0;
+}
+
+.container .content .register {
+    max-width: 300px;
+    max-height: 600px;
+    background-color: var(--main-color);
+    padding: 10px;
+}
+
+.container .content .register input,
+select {
+    margin: 10px;
+    width: calc(100% - 20px);
+}
+
+.container .content .register label {
+    color: white;
+}

@@ -1,0 +1,155 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #969696;
+    --second-color: #fff;
+    --icon-color: #8E7754;
+    --h-color: #303030;
+    --p-color: #686868;
+    --section-padding: 60px;
+}
+
+body {
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.container {
+    padding: 100px 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-section {
+    background-image: url(../images/drew-coffman-1872.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    position: relative;
+}
+
+.header {
+    position: sticky;
+    height: 50px;
+}
+
+.header .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.header .container img {
+    width: 200px;
+}
+
+.header .container a {
+    text-decoration: none;
+    margin: 10px;
+    font-size: 20px;
+    color: var(--second-color);
+}
+
+.header .container a:hover {
+    color: var(--icon-color);
+}
+
+.main-content {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    text-align: center;
+}
+
+.main-content h3 {
+    color: var(--second-color);
+    font-size: 20px;
+}
+
+.main-content h1 {
+    color: var(--second-color);
+    font-size: 75px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    margin: 15px;
+}
+
+.main-content p {
+    color: var(--second-color);
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.main-content .ptn {
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+    border: none;
+    color: var(--second-color);
+    margin: 5px;
+}
+
+.main-content .ptn1 {
+    background-color: var(--icon-color);
+}
+
+.main-content .ptn2 {
+    color: var(--icon-color);
+}
+
+.about-us {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.about-us .image img {
+    width: 550px;
+}
+
+.about-us .content {
+    margin-left: 70px;
+}
+
+.about-us .content h1 {
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: var(--h-color);
+}
+
+.about-us .content p {
+    color: var(--p-color);
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.about-us .content .card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.about-us .content .card div {
+    display: flex;
+    flex-direction: row;
+}
+
+.about-us .content .card i {
+    color: var(--icon-color);
+    margin-right: 20px;
+    font-size: 22px;
+}
